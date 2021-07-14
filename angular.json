@@ -17,7 +17,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "allowedCommonJsDependencies": ["chart.js"],
+            "allowedCommonJsDependencies": [
+              "chart.js"
+            ],
             "outputPath": "dist/graficasApp",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -125,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "graficasApp"
+  "defaultProject": "graficasApp",
+  "cli": {
+    "analytics": "c4a32640-d6fa-45d5-8412-c43bc2ea643a"
+  }
 }
